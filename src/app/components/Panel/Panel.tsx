@@ -9,7 +9,11 @@ const Panel = ({
   className?: string;
 }) => {
   return (
-    <div className={`flex-auto h-full border-r ${className || ""}`}>
+    <div
+      className={`flex flex-col flex-auto h-full max-h-screen border-r ${
+        className || ""
+      }`}
+    >
       {children}
     </div>
   );

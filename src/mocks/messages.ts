@@ -1,4 +1,10 @@
 const messagesData = {
+  sender: {
+    id: "1",
+    name: "Elmer Laverty",
+    avatar: "https://robohash.org/John Doe",
+    status: "Online",
+  },
   // messages between sender and receiver
   messages: [
     {
@@ -33,6 +39,91 @@ const messagesData = {
     },
     {
       message: "It's on Friday",
+      time: new Date(new Date().getTime() - 12 * 60000).toISOString(),
+      senderID: "2",
+    },
+    {
+      message: "How far have you gone with the project?",
+      time: new Date(new Date().getTime() - 12 * 60000).toISOString(),
+      senderID: "2",
+    },
+    {
+      message: "Are you done with the chat feature?",
+      time: new Date(new Date().getTime() - 12 * 60000).toISOString(),
+      senderID: "2",
+    },
+    {
+      message: "How far have you gone with the project?",
+      time: new Date(new Date().getTime() - 12 * 60000).toISOString(),
+      senderID: "2",
+    },
+    {
+      message: "Are you done with the chat feature?",
+      time: new Date(new Date().getTime() - 12 * 60000).toISOString(),
+      senderID: "2",
+    },
+    {
+      message: "It's on Friday",
+      time: new Date(new Date().getTime() - 12 * 60000).toISOString(),
+      senderID: "2",
+    },
+    {
+      message: "How far have you gone with the project?",
+      time: new Date(new Date().getTime() - 12 * 60000).toISOString(),
+      senderID: "2",
+    },
+    {
+      message: "Are you done with the chat feature?",
+      time: new Date(new Date().getTime() - 12 * 60000).toISOString(),
+      senderID: "2",
+    },
+    {
+      message: "How far have you gone with the project?",
+      time: new Date(new Date().getTime() - 12 * 60000).toISOString(),
+      senderID: "2",
+    },
+    {
+      message: "Are you done with the chat feature?",
+      time: new Date(new Date().getTime() - 12 * 60000).toISOString(),
+      senderID: "2",
+    },
+    {
+      message: "It's on Friday",
+      time: new Date(new Date().getTime() - 12 * 60000).toISOString(),
+      senderID: "2",
+    },
+    {
+      message: "How far have you gone with the project?",
+      time: new Date(new Date().getTime() - 12 * 60000).toISOString(),
+      senderID: "2",
+    },
+    {
+      message: "Are you done with the chat feature?",
+      time: new Date(new Date().getTime() - 12 * 60000).toISOString(),
+      senderID: "2",
+    },
+    {
+      message: "How far have you gone with the project?",
+      time: new Date(new Date().getTime() - 12 * 60000).toISOString(),
+      senderID: "2",
+    },
+    {
+      message: "Are you done with the chat feature?",
+      time: new Date(new Date().getTime() - 12 * 60000).toISOString(),
+      senderID: "2",
+    },
+    {
+      message: "It's on Friday",
+      time: new Date(new Date().getTime() - 12 * 60000).toISOString(),
+      senderID: "2",
+    },
+    {
+      message: "How far have you gone with the project?",
+      time: new Date(new Date().getTime() - 12 * 60000).toISOString(),
+      senderID: "2",
+    },
+    {
+      message: "Are you done with the chat feature?",
       time: new Date(new Date().getTime() - 12 * 60000).toISOString(),
       senderID: "2",
     },
