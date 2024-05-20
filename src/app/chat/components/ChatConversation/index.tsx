@@ -13,6 +13,7 @@ const ChatConversation = async ({ id }: { id: string }) => {
       </Panel.Header>
       <Panel.Body>
         <Body messages={messages} sender={sender} />
+       
       </Panel.Body>
     </Panel>
   );

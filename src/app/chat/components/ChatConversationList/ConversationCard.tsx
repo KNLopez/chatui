@@ -45,7 +45,7 @@ const ConversationCard = ({
 
   return (
     <>
-      <Link href={`/chat/${id}`} className="cursor-pointer">
+      <Link href={`/chat/${id}`}>
         <InfoCard
           image={avatar}
           title={name}

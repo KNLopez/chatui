@@ -6,7 +6,7 @@ const TeamMembers = async () => {
   const members = await getUsers();
 
   return (
-    <div className="py-8 px-4">
+    <div className="py-8 px-4 h-1/2 overflow-auto">
       <div className="flex gap-2 mb-4">
         <h2 className="font-semibold">Team Members</h2>
         <Tag tag="chip" text={members.length.toString()} />

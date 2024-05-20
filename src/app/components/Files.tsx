@@ -31,7 +31,7 @@ const mockFiles: MockFile[] = [
 
 const Files = () => {
   return (
-    <div className="flex flex-col border-t py-8 px-4">
+    <div className="flex flex-col border-t py-8 px-4 h-1/2 overflow-auto">
       <div className="flex gap-2 mb-4">
         <h2 className="font-semibold">Files</h2>
         <Tag tag="chip" text={mockFiles.length.toString()} />

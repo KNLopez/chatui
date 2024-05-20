@@ -1,5 +1,5 @@
 import { Conversation } from "@/types/converstaion";
-import ConversationCard from "../ConversationCard";
+import ConversationCard from "./ConversationCard";
 
 const ChatConversationBody = ({
   id,
@@ -9,20 +9,29 @@ const ChatConversationBody = ({
   conversations: Conversation[];
 }) => {
   return (
-    <div className="p-4">
-      <input
-        type="search"
-        placeholder="Search Messages"
+    <div className=" h-full overflow-auto">
+      <div
         className="
-            w-full
+        bg-white
+        p-4
+        sticky
+        top-0
+        w-full
+      "
+      >
+        <input
+          type="search"
+          placeholder="Search Messages"
+          className="
+          w-full
            bg-gray-100
             rounded-lg
             p-4
-            mb-4
             font-semibold
           "
-      />
-      <div className="flex flex-col gap-2">
+        />
+      </div>
+      <div className="flex flex-col gap-2 px-4 pb-4">
         {conversations.map((conversation, index) => (
           <ConversationCard
             key={index}

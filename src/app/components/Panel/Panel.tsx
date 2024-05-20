@@ -10,9 +10,7 @@ const Panel = ({
 }) => {
   return (
     <div
-      className={`flex flex-col flex-auto h-full max-h-screen border-r ${
-        className || ""
-      }`}
+      className={`flex flex-col flex-auto h-screen border-r ${className || ""}`}
     >
       {children}
     </div>

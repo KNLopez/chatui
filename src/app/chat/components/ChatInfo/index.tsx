@@ -13,8 +13,10 @@ const ChatInfo = ({ id }: { id: string }) => {
         <Image src={OptionsIcon} alt="directory options" className="m-1" />
       </Panel.Header>
       <Panel.Body>
-        <TeamMembers />
-        <Files />
+        <div className="h-full overflow-auto">
+          <TeamMembers />
+          <Files />
+        </div>
       </Panel.Body>
     </Panel>
   );
